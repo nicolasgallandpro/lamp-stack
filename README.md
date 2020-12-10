@@ -1,11 +1,11 @@
 # LAMP | LARAVEL Docker stack - 2 env : production & dev
 
-##3x2 containers (Dev & P)rod*
+## 3x2 containers (Dev & P)rod*
 - PHP 7.4 + Laravel + Apache
 - Mariadb 10.5
 - PhpMyAdmin
 
-##Files
+## Files
 Dockerfile : Dockerfile of the PHP/Apache/Laravel container. Other containers use vanilla docker hub images
 bash.sh : access the bash of any container
 docker-compose.base.yaml : common part of the dev and production containers
